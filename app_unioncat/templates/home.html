@@ -1,1 +1,12 @@
 <h1>Welcome</h1>
+<h3>List of titles</h3>
+<table border="1">
+    <th>Title</th> <th>Author</th>
+    {% for i in response %}
+    <tr>
+        <td><a href = 'detail/{{i.id}}'>{{ i.title }}</a></td>
+        <td>{{ i.author }}</td>
+
+    </tr>
+    {% endfor %}
+</table>

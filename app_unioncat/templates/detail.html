@@ -1,0 +1,14 @@
+<h1>Detail</h1>
+<h3>Detail of book</h3>
+<table border="1">
+    <th>Title</th> <th>Author</th><th>Publisher</th> <th>Published in</th>
+    {% for i in response %}
+    <tr>
+        <td>{{ i.title }}</td>
+        <td>{{ i.author }}</td>
+        <td>{{ i.publisher }}</td>
+        <td>{{ i.publish_year }}</td>
+
+    </tr>
+    {% endfor %}
+</table>
