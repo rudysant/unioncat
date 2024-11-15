@@ -1,6 +1,6 @@
 Catalogue record sharing and exchange
 
-Post : save catalogue record
+Post : save catalogue record, add user
 Get : read catalogue record
 Put : update catalogue record
 Delete : remove catalogue record
