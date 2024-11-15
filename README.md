@@ -19,6 +19,11 @@ Model (author)
 - id
 - name
 
+Model (publisher)
+- id
+- name
+- address
+
 Model (holder)
 - id
 - name
