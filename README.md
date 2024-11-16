@@ -13,6 +13,7 @@ Model (book) :
 - publisher name
 - date of publication
 - physical data : number of pages
+- subject
 - owner (foreignkey from holder record)
 
 Model (author)
