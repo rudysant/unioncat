@@ -19,6 +19,7 @@ Model (book) :
 Model (author)
 - id
 - name
+- address
 
 Model (publisher)
 - id
